@@ -6,8 +6,7 @@ public class scrip : MonoBehaviour
 {
     [Header("金幣")]
     public GameObject coin;
-    [Header("金幣按鈕")]
-    public Button btnGetcoin;
+ 
 
     public AudioSource aud;
     public AudioClip Soundcoin;

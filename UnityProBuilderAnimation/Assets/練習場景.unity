@@ -510,7 +510,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1188755032}
-  btnGetcoin: {fileID: 853799422}
   aud: {fileID: 850231667}
   Soundcoin: {fileID: 8300000, guid: 6f5cf4bda8e2fa446b325244ee6c315f, type: 3}
 --- !u!82 &850231667
@@ -691,12 +690,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 2abfe2cc3d53bdf48b8be02c75bfa2ad, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 850231666}
+        m_MethodName: Coin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
